@@ -1,0 +1,18 @@
+//CUILOAD 局部功能表載入
+//***MENUGROUP 主功能表
+//***POPx      下拉式功能表
+//***TOOLBARS  工具列功能表
+//***IMAGE     圖像功能表
+
+***MENUGROUP=VBAprogram
+***POP1
+[VBAprogram]
+[->RCSS繪圖程式]
+[程式載入]^C^C-vbaload;D:/ACADAPP/RC-SS繪圖V3.dvb;
+[<-程式執行]^C^C-vbarun;rcss;
+
+***MENUGROUP=VBALayer  
+***POP1
+[VBALayer]
+[->圖層輔助程式]
+[程式載入]^C^C-vbaload;D:/ACADAPP/LayerFunction.dvb;
